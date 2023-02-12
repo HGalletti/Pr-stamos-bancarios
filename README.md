@@ -1,18 +1,25 @@
-¿Deberíamos aprobar o no el préstamo?
+  Business Problem
+  
+Commercial context and motivation
 
-Contexto comercial y motivación
+The U.S. SBA (United States Small Business Administration) was founded in 1953 on the principle of promoting and assisting small enterprises in the U.S. credit market.
 
-La Administración de Pequeñas Empresas de EE.UU. (SBA, United States Small Business Administration) es una agencia del gobierno federal de los Estados Unidos que brinda apoyo a empresarios y pequeñas empresas.Se fundó en 1953 sobre el principio de promover y ayudar a las pequeñas empresas en el mercado crediticio de los EE. UU.
-Las pequeñas empresas han sido una fuente primaria de creación de trabajo en los Estados Unidos; por lo tanto, fomentar la formación y crecimiento de pequeñas empresas tiene beneficios sociales creando oportunidades de empleo y reduciendo el desempleo. Una forma en que la SBA ayuda a estas pequeñas empresas es a través de un programa de garantía de préstamo que está diseñado para alentar a los bancos a otorgar préstamos a las pequeñas empresas. La SBA actúa como un proveedor de seguros para reducir el riesgo de un banco al asumir parte del riesgo garantizando una parte del préstamo. En el caso de que un préstamo entre en incumplimiento, la SBA cubre el monto garantizado.
-Ha habido muchas historias de éxito de empresas emergentes que recibieron garantías de préstamos de la SBA, como FedEx y Apple Computer. Sin embargo, también ha habido historias de pequeñas empresas y/o nuevas empresas que han incumplido con sus préstamos garantizados por la SBA. La tasa de morosidad de estos préstamos ha sido motivo de controversia durante décadas. Los economistas conservadores creen que los mercados de crédito funcionan de manera eficiente sin la participación del gobierno. Los partidarios de los préstamos garantizados por la SBA argumentan que los beneficios sociales de la creación de empleo por parte de las pequeñas empresas que reciben préstamos garantizados por el gobierno superan con creces los costos incurridos por los préstamos en mora.
+Small businesses have been a primary source of job creation in the United States; therefore, fostering small business formation and growth has social benefits by creating job opportunities and reducing unemployment. One way SBA assists these small business enterprises is through a loan guarantee program which is designed to encourage banks to grant loans to small businesses. SBA acts much like an insurance provider to reduce the risk for a bank by taking on some of the risk through guaranteeing a portion of the loan. In the case that a loan goes into default, SBA then covers the amount they guaranteed.
 
-Problema comercial
+There have been many success stories of start-ups receiving SBA loan guarantees such as FedEx and Apple Computer. However, there have also been stories of small businesses and/or start-ups that have defaulted on their SBA-guaranteed loans. The rate of default on these loans has been a source of controversy for decades. Conservative economists believe that credit markets perform efficiently without government participation. Supporters of SBA- guaranteed loans argue that the social benefits of job creation by those small businesses receiving government- guaranteed loans far outweigh the costs incurred from defaulted loans.
 
-Dado que los préstamos de la SBA solo garantizan una parte del saldo total del préstamo, los bancos incurrirán en algunas pérdidas si una pequeña empresa no cumple con su préstamo garantizado por la SBA. Por lo tanto, los bancos aún se enfrentan a una difícil decisión sobre si deben otorgar dicho préstamo debido al alto riesgo de incumplimiento. Una forma de informar su toma de decisiones es mediante el análisis de datos históricos relevantes, como los conjuntos de datos proporcionados aquí.
-El problema empresarial es decidir si un préstamo puede ser otorgado, con una probabilidad razonable de que la empresa que lo solicita pueda cancelarlo sin inconvenientes.
+Since SBA loans only guarantee a portion of the entire loan balance, banks will incur some losses if a small business defaults on its SBA-guaranteed loan. Therefore, banks are still faced with a difficult choice as to whether they should grant such a loan because of the high risk of default. One way to inform their decision making is through analyzing relevant historical data such as the datasets provided here.
 
-Objetivo
+Target
 
-El objetivo es armar un modelo que en base a los datos de un potencial nuevo préstamo, decida si es conveniente otorgar el préstamo o no. Se busca implementar un modelo de machine learning que con los distintos valores de los campos del dataset, prediga si la empresa tuvo dificultades en pagar el préstamo, lo que puede llamarse de forma más corta como "incumplir los pagos".
+The business problem is to decide if a loan can be granted, with a reasonable probability that the requesting company can cancel it without inconvenience.
 
-Para ver el desarrollo del trabajo, abrir el archivo Préstamos.pnyb
+Business Target
+
+What are the characteristics of the companies that best predict whether or not the company will have problems repaying the loan? What happens if a company takes several loans, is it more likely that one will have problems? How does the borrowing bank and the line of credit influence? Is there a relationship with the term of the loan? And with the year the loan was made? (Let's keep in mind that this last question is related to the economic and political context.).
+
+Context and analytical approach
+
+The aim is to implement a machine learning model that, with the different values of the dataset fields, predicts if the company had difficulties in paying the loan, which can be called in a shorter way as "defaulted loan".
+
+To see the development of the work, open the file Loans.pnyb
