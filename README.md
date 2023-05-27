@@ -22,4 +22,4 @@ Context and analytical approach
 
 The aim is to implement a machine learning model that, with the different values of the dataset fields, predicts if the company had difficulties in paying the loan, which can be called in a shorter way as "defaulted loan".
 
-To see the development of the work, open the file Loans.pnyb
+To see the development of the work, open the file Loans.ipynb
